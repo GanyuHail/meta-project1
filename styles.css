@@ -1,8 +1,13 @@
-body {
+* {
     display: grid;
 } 
 
+.logo {
+    align-items: center;
+}
+
 nav {
+    display: grid;
     justify-content: center;
     gap: 10px;
 }
