@@ -1,0 +1,13 @@
+body {
+    display: grid;
+} 
+
+#row1 {
+    grid-column: auto;
+    outline: 2px red;
+}
+
+#row2 {
+    grid-column: 3;
+    outline: 2px red;
+}
