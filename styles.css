@@ -1,9 +1,15 @@
-* {
+div {
     display: grid;
 } 
 
-.logo {
-    align-items: center;
+title {
+    display: none;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
 nav {
