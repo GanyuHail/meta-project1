@@ -28,8 +28,8 @@ p {
 }
 
 #navGrid {
-    display: grid;  
-    grid: 100px / repeat(4,10vh);
+    display: grid;
+    grid: 40px / repeat(4, 10vh);
     justify-content: center;
     gap: 10px;
     text-align: center;
@@ -45,6 +45,7 @@ p {
     background-size: cover;
     background-position: center;
     height: 30vh;
+    border-radius: 25%;
 }
 
 #row1 h1 {
@@ -57,25 +58,72 @@ p {
 }
 
 #row2 {
+    padding-top: 8px;
     display: grid;
     grid: auto / 33vh 33vh 33vh;
     justify-content: center;
+    gap: 7vh;
+}
+
+#menu {
+    background-image: url(media/yellowLemon.png);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    opacity: 80%;
+}
+
+#book {
+    background-image: url(media/greenLemon.png);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    opacity: 90%;
+}
+
+#hours {
+    background-image: url(media/yellowLemon.png);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    opacity: 80%;
 }
 
 .glow {
     font-size: 80px;
     color: #fff;
     text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glow {
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -moz-animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #F4CE14, 0 0 40px #F4CE14, 0 0 50px #F4CE14, 0 0 60px #F4CE14, 0 0 70px #F4CE14;
+        text-shadow: 0 0 10px #fff, 0 0 30px #F4CE14, 0 0 60px #F4CE14;
     }
+
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 80px #ff4da6;
     }
-  }
+}
+
+#footer {
+    display: block;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer #copyright {
+    font-size: 11px;
+}
+
+#logo2 {
+    padding-top: 8px;
+    text-align: center;
+}
+
+#copyright {
+    padding-top: 0px;
+}
