@@ -1,26 +1,33 @@
-div {
+/* div {
     display: grid;
-} 
+}  */
 
 title {
     display: none;
 }
 
 #logo {
-    display: flex;
+    display: grid;
     justify-content: center;
     justify-items: center;
 }
 
-nav {
-    display: grid;
+#navGrid {
+    display: grid;  
+    grid: 100px / repeat(4,10vh);
     justify-content: center;
     gap: 10px;
+    text-align: center;
+}
+
+#bodyGrid {
+    display: grid;
+    justify-items: center;
 }
 
 #row1 {
     grid-column: auto;
-    outline: 2px red;
+    outline: 2px red;   
 }
 
 #row2 {
